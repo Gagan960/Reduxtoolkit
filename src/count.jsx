@@ -11,6 +11,7 @@ function Count() {
         <button onClick={() => setCount(count - 1)}>-</button>
         <button onClick={() => setCount(count + 1)}>+</button>
         <button onClick={() => setCount(0)}>Reset</button>
+        <p>{count === 0 ? "Zero" : count > 0 ? "Positive" : "Negative"}</p>
     </div>
   )
 }
