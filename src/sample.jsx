@@ -7,6 +7,7 @@ function sample() {
         <p>It demonstrates the structure of a React component.</p>
         <p>Feel free to modify it as needed.</p>
         <p>Happy coding!</p>
+        <p>Goodbye!</p>
     </div>
   )
 }
